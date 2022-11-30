@@ -23,7 +23,7 @@ public class CalculateAge {
 
         if (ageEligible>=21){
             System.out.println("Age meets requirements. You are eligible to get alcohol!");
-        } else if (ageEligible<20){
+        } else if (ageEligible<21){
             System.out.println("Underage! You can't purchase alcohol! ");
         }
     }
